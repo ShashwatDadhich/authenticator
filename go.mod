@@ -12,7 +12,7 @@ require (
 	golang.org/x/crypto v0.0.0-20211202192323-5770296d904e
 	golang.org/x/net v0.10.0
 	golang.org/x/oauth2 v0.7.0
-	google.golang.org/grpc v1.53.0-dev
+	google.golang.org/grpc v1.56.3
 	gopkg.in/yaml.v3 v3.0.0-20220521103104-8f96da9f5d5e
 	k8s.io/api v0.23.1
 	k8s.io/apimachinery v0.23.1
@@ -41,7 +41,7 @@ require (
 	golang.org/x/text v0.13.0 // indirect
 	golang.org/x/time v0.3.0 // indirect
 	google.golang.org/appengine v1.6.7 // indirect
-	google.golang.org/genproto v0.0.0-20221118155620-16455021b5e6 // indirect
+	google.golang.org/genproto v0.0.0-20230410155749-daa745c078e1 // indirect
 	google.golang.org/protobuf v1.30.0 // indirect
 	gopkg.in/check.v1 v1.0.0-20201130134442-10cb98267c6c // indirect
 	gopkg.in/inf.v0 v0.9.1 // indirect
