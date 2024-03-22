@@ -48,6 +48,7 @@ func generateDexConf(client *client2.K8sClient) ([]byte, error) {
 	if err != nil {
 		return nil, err
 	}
+	
 	dexConfig.DexServerAddress = *dexServerAddress
 	dexConfig.DexClientID = *dexCLIClientID
 	dexConfig.UserSessionDurationSeconds = 10000
@@ -56,7 +57,7 @@ func generateDexConf(client *client2.K8sClient) ([]byte, error) {
 }
 
 func main() {
-	dexServerAddress = flag.String("dexServerAddress", "http://127.0.0.1:5556", "dex endpoint")
+	dexServerAddress = flag.String("dexServerAddress", "http://127.0.0.1:5556", "dex")
 	dexCLIClientID = flag.String("dexCLIClientID", "argo-cd", "dex clinet id")
 	flag.Parse()
 	runtimeConfig, err := client2.GetRuntimeConfig()
